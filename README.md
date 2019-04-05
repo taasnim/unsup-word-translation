@@ -45,7 +45,7 @@ You can also control other hyperparameters.
 For example to run EN-ES:
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 python  unsupervised.py  --src_lang en --tgt_lang es --src_emb ./data/wiki.en.vec --tgt_emb ./data/wiki.es.vec --max_vocab_A 200000 --max_vocab_B 200000 --dis_most_frequent_AB 50000--dis_most_frequent_BA 50000  --normalize_embeddings 'renorm,center,renorm' --emb_dim_autoenc 350 --dis_lambda 1 --cycle_lambda 5 --reconstruction_lambda 1 
+CUDA_VISIBLE_DEVICES=0 python  unsupervised.py  --src_lang en --tgt_lang es --src_emb ./data/wiki.en.vec --tgt_emb ./data/wiki.es.vec --max_vocab_A 200000 --max_vocab_B 200000 --dis_most_frequent_AB 50000 --dis_most_frequent_BA 50000  --normalize_embeddings 'renorm,center,renorm' --emb_dim_autoenc 350 --dis_lambda 1 --cycle_lambda 5 --reconstruction_lambda 1 
 ```
 You will get the word translation accuracies at different precision (1, 5, 10) for EN-ES and ES-EN.
 
