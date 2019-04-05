@@ -50,7 +50,8 @@ CUDA_VISIBLE_DEVICES=0 python  unsupervised.py  --src_lang en --tgt_lang es --sr
 You will get the word translation accuracies at different precision (1, 5, 10) for EN-ES and ES-EN.
 
 
-## References
+
+## Citation
 Please cite our paper if you found the resources in this repository useful.
 ```bash
 @InProceedings{mohiuddin-joty-naacl-19,
