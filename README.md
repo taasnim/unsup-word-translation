@@ -41,7 +41,7 @@ For downloading Dinu-Artetxe dataset please visit [vecmap](https://github.com/ar
 The general command: </br>
 `CUDA_VISIBLE_DEVICES=<gpu-id> python  unsupervised.py  --src_lang <source-language> --tgt_lang <target-language> --src_emb <source-embedding-path> --tgt_emb <target-embedding-path> --max_vocab_A <max-vocab-size-source> --max_vocab_B <max-vocab-size-target> --dis_most_frequent_AB <most-freq-emb-src2tgt-adversary> --dis_most_frequent_BA <most-freq-emb-tgt2src-adversary> --normalize_embeddings <normalizing-values> --emb_dim_autoenc <code-space-dimension> --dis_lambda <adversarial-loss-weight> --cycle_lambda <cycle-loss-weight> --reconstruction_lambda <reconstruction-loss-weight>`
 
-You can also control other hyperparameters.
+You can also control other hyperparameters. </br></br>
 For example to run EN-ES:
 
 ```bash
