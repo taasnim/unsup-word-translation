@@ -14,11 +14,11 @@ This repository contains the code of our paper *Revisiting Adversarial Autoencod
 
 ### Get Monolingual Word Embeddings
 
-All the monolingual word embeddings should be in the `'./data' folder`.
+All the monolingual word embeddings should be in the `'./data' folder`. </br>
 [FastText Embeddings](https://fasttext.cc/docs/en/pretrained-vectors.html): You can download the English (en) and Spanish (es) embeddings this way:
 ```bash
 # English fastText Wikipedia embeddings
-cd data
+cd data/
 wget https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.vec
 # Spanish fastText Wikipedia embeddings
 wget https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.es.vec
@@ -33,7 +33,7 @@ cd data/
 ./get_evaluation.sh
 ```
 
-For Dinu-Artetxe dataset please visit [vecmap](https://github.com/artetxem/vecmap/) repository.
+For downloading Dinu-Artetxe dataset please visit [vecmap](https://github.com/artetxem/vecmap/) repository.
 
 
 ## How to run
