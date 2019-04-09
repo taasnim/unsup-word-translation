@@ -1,6 +1,6 @@
 # Unsupervised Word Translation
 
-This repository contains the code of our paper *Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training*  (NAACL-HLT 2019).
+This repository contains the code of our paper [Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training](https://arxiv.org/pdf/1904.04116.pdf)  (NAACL-HLT 2019).
 
 
 ## Requirements
